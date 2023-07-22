@@ -1,6 +1,6 @@
 # Simple React Music Player
 
-![Music Player](link-to-image.png)
+![Music Player](https://github.com/fabiconcept/music-player/blob/main/Web%20capture_22-7-2023_41541_music-player-one-ebon.vercel.app.jpeg)
 
 This is a simple music player built with React, allowing users to play and control their favorite tunes easily. The application provides an intuitive interface to manage a collection of songs and enjoy a seamless music playback experience.
 
