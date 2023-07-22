@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Simple React Music Player
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Music Player](link-to-image.png)
 
-## Available Scripts
+This is a simple music player built with React, allowing users to play and control their favorite tunes easily. The application provides an intuitive interface to manage a collection of songs and enjoy a seamless music playback experience.
 
-In the project directory, you can run:
+## Features
 
-### `yarn start`
+- Play, pause, and skip tracks.
+- Control volume and mute functionality.
+- Display track progress and seek to specific positions in the song.
+- Automatically update the currently playing song.
+- Responsive design for both desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Link to live demo](https://music-player-one-ebon.vercel.app)
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow the instructions below to set up the project on your local machine:
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm must be installed on your system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository to your local machine:
 
-### `yarn eject`
+```
+git clone https://github.com/fabiconcept/music-player.git
+cd music-player
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the required dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Run the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm start
+```
 
-## Learn More
+4. Open your web browser and navigate to `http://localhost:3000` to access the music player.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Adding Music**: Place your music files (e.g., `.mp3` or `.ogg`) in the `src/audio` directory.
+- **Play/Pause**: Click on the play/pause button to control the playback of the current track.
+- **Next/Previous**: Use the next/previous buttons to navigate through your playlist.
+- **Volume Control**: Adjust the volume using the volume slider or mute/unmute the audio with the mute button.
+- **Track Seek**: Drag the progress bar to seek to a specific position within the song.
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React
+- HTML
+- CSS
+- JavaScript
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- The inspiration for this project came from my love for music and a desire to improve my React skills.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
